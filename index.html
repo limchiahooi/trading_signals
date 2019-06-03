@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FBM KLCI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script> -->
+    <style>
+        .section {
+            font-size: 14px;
+            font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+            margin-left: 10px;
+            /* padding: 5px;             */
+            }
+        .footer {
+            margin-left: 10px;
+            bottom: 0;
+            width: 100%;
+            text-align: left;
+            font-size: 12px;
+            font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+
+        }
+    </style>
+</head>
+<body>
+    <iframe src="candlestick_with_signal_2019.html" style="margin:auto; display:block" width="100%" height="720" frameBorder="0" scrolling="no" overflow: hidden;>
+        Browser not compatible.
+    </iframe>
+    <section class="section">
+        <strong>About</strong>
+            <ul>
+                <!-- <li><a href="https://www.investopedia.com/terms/t/trading-strategy.asp">Investopedia</a> defines trading strategy as the method of buying and selling in markets that is based on predefined rules used to make trading decisions.</li>
+                <li>Trading signal is an integral part of the trading strategy as it helps traders to make decision whether they should buy/sell a financial instrument at any point in time.</li> -->
+                <li>FBM KLCI is Malaysia's stock market benchmark index, composed of the 30 largest companies on Bursa Malaysia by market capitalisation.</li>
+                <li>The trading signals (buy and sell) in the chart above are generated using a candlestick chart pattern recognition model written in Python.</li>
+                <li>The model scans the chart for 5 popular candlestick patterns (Inverted Hammer, Engulfing, Piercing Line, Morning Star and Three White Soldiers) and plot the signals on the chart if they are identified. More info on these patterns on <a href="https://www.investopedia.com/articles/active-trading/062315/using-bullish-candlestick-patterns-buy-stocks.asp">Investopedia website.</a></li>
+                <li>The objective of this project is to visualize and document the trading signals as a proof of concept for the model. The candlestick chart and trading signals are visualized using <a href="https://pypi.org/project/plotly/">plotly.py</a>.</li>
+                <li>Disclaimer: The information contained within this website is provided for informational and educational purposes only. The information should not be construed as investment/trading advice and is not meant to be a solicitation or recommendation to buy, sell, or hold any securities mentioned.</li>
+            </ul>
+    </section>
+        
+          <div class="footer">
+              <p>© 2019 <a href="https://www.linkedin.com/in/limchiahooi">Lim Chia Hooi</a></p>
+          </div>
+</body>
+</html>
