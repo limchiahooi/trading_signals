@@ -1,7 +1,7 @@
 # Trading Signals
 <br>
 
-This repo contains the Project GitHub Pages for my Trading Signals project. 
+This repo contains the GitHub Project Pages for my Trading Signals project. 
 <br>
 
 Project Pages: https://limchiahooi.github.io/trading_signals/
