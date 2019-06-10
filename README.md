@@ -1,9 +1,8 @@
 # Trading Signals
 <br>
 This repo contains the Project GitHub Pages for my Trading Signals project. 
-
+<br>
 Project Pages: https://limchiahooi.github.io/trading_signals/
-
 <br>
 ## About
 - FBM KLCI is Malaysia's stock market benchmark index, composed of the 30 largest companies on Bursa Malaysia by market capitalisation.
